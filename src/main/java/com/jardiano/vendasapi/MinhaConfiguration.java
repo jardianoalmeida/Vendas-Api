@@ -1,18 +1,16 @@
 package com.jardiano.vendasapi;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Development
 public class MinhaConfiguration {
 
-    @Bean(name = "applicationName")
-    public String applicationName(){
-        return "Sistema de Vendas";
-    }
-
-    @Bean(name = "outraConfiguracao")
-    public String outraConfiguracao(){
-        return "Sistema de Vendas";
+    @Bean
+    public CommandLineRunner executar(){
+        return args -> {
+            System.out.println("RODANDO A CONFIGURAÇÃO DE DESENVOLVIMENTO");
+        };
     }
 }
