@@ -1,5 +1,6 @@
-package com.jardiano.vendasapi.domain.entity;
+package com.jardiano.vendasapi.entity;
 
+import ch.qos.logback.core.net.server.Client;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package com.jardiano.vendasapi.domain.entity;
+package com.jardiano.vendasapi.entity;
 
 public class ItemPedido {
 
